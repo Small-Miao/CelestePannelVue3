@@ -4,10 +4,7 @@ const router = express.Router()
 const Client = require('mariasql')
 const stringRandom = require('string-random')
 const database = new Client({
-  host: '39.104.200.83',
-  user: 'celestserver',
-  password: 'celest',
-  db: 'celesteserver'
+
 })
 
 router.get('/login', function (req, res) {
